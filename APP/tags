@@ -1,0 +1,459 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADICMatricesAreEqual	../../SRC/Utilities/extra.cpp	/^bool ADICMatricesAreEqual(std::list<std::vector<double> >& lvd_Value, std::list<std::vector<double> >& lvd_NewValue, bool compare_exact, bool print_all) {$/;"	f
+AcyclicColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::AcyclicColoring()$/;"	f	class:ColPack::GraphColoring
+AcyclicColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::AcyclicColoring(vector<int> & vi_Sets, map< int, vector<int> > & mivi_VertexSets)$/;"	f	class:ColPack::GraphColoring
+AcyclicColoring	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::AcyclicColoring(string s_OrderingVariant)$/;"	f	class:ColPack::GraphColoringInterface
+AcyclicColoring_ForIndirectRecovery	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::AcyclicColoring_ForIndirectRecovery() {$/;"	f	class:ColPack::GraphColoring
+AcyclicColoring_ForIndirectRecovery	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::AcyclicColoring_ForIndirectRecovery(string s_OrderingVariant)$/;"	f	class:ColPack::GraphColoringInterface
+AreD2Neighbor	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	bool GraphCore::AreD2Neighbor(int VertexIndex1, int VertexIndex2) {$/;"	f	class:ColPack::GraphCore
+BuildColorsSubGraph	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::BuildColorsSubGraph(map< int, map<int,bool> > *graph, map<int,bool> *mib_Colors) {$/;"	f	class:ColPack::GraphColoring
+BuildConnectedSubGraph	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::BuildConnectedSubGraph(map< int, map<int,bool> > *graph, int i_CenterVertex, int distance, map<int, bool> *mib_FilterByColors) {$/;"	f	class:ColPack::GraphColoring
+BuildForbiddenColors	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::BuildForbiddenColors(int i_MaxNumThreads, int i_thread_num, int i_CurrentVertex, map<int, bool>* mip_ForbiddenColors, map<int, int>* D1Colors, vector<  map <int, int > > *Vertex2ColorCombination) {$/;"	f	class:ColPack::GraphColoring
+BuildGraphFromRowCompressedFormat	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::BuildGraphFromRowCompressedFormat(unsigned int ** uip2_HessianSparsityPattern, int i_RowCount) {$/;"	f	class:ColPack::GraphInputOutput
+BuildStarCollection	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::BuildStarCollection(vector<int> & vi_VerticesToBeRecolored) {$/;"	f	class:ColPack::GraphColoring
+BuildStarFromColorCombination	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::BuildStarFromColorCombination(int i_MaxNumThreads, int i_thread_num, pair<int, int> pii_ColorCombination, map< pair<int, int>, Colors2Edge_Value , lt_pii>* Colors2Edge_Private,$/;"	f	class:ColPack::GraphColoring
+BuildStarFromColorCombination_forChecking	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::BuildStarFromColorCombination_forChecking(int i_Mode, int i_MaxNumThreads, int i_thread_num, pair<int, int> pii_ColorCombination, map< pair<int, int>, Colors2Edge_Value , lt_pii>* Colors2Edge_Private,$/;"	f	class:ColPack::GraphColoring
+BuildSubGraph	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::BuildSubGraph(map< int, map<int,bool> > *graph, int i_CenterVertex, int distance, map<int, bool> *mib_FilterByColors) {$/;"	f	class:ColPack::GraphColoring
+BuildVertex2ColorCombination	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::BuildVertex2ColorCombination(int i_MaxNumThreads, map< int, vector< pair<int, int> > > *Vertex2ColorCombination_Private, vector< map <int, int > > *Vertex2ColorCombination) {$/;"	f	class:ColPack::GraphColoring
+CIRCO	../../SRC/Utilities/extra.h	54;"	d
+CLK_TCK	../../SRC/Utilities/Timer.h	28;"	d
+COUTLOCK_H	../../SRC/Utilities/CoutLock.h	22;"	d
+CURRENT_TIME_H	../../SRC/Utilities/current_time.h	22;"	d
+CalculateVertexColorClasses	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::CalculateVertexColorClasses()$/;"	f	class:ColPack::GraphColoring
+CalculateVertexColorClasses	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::CalculateVertexColorClasses() {$/;"	f	class:ColPack::GraphColoringInterface
+CalculateVertexDegrees	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	void GraphInputOutput::CalculateVertexDegrees()$/;"	f	class:ColPack::GraphInputOutput
+CheckAcyclicColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::CheckAcyclicColoring()$/;"	f	class:ColPack::GraphColoring
+CheckDistanceTwoColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::CheckDistanceTwoColoring(int Verbose) {$/;"	f	class:ColPack::GraphColoring
+CheckQuickDistanceTwoColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::CheckQuickDistanceTwoColoring(int Verbose)$/;"	f	class:ColPack::GraphColoring
+CheckStarColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::CheckStarColoring()$/;"	f	class:ColPack::GraphColoring
+CheckStarColoring_OMP	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::CheckStarColoring_OMP(int i_Mode, pair<int,int> *pii_ConflictColorCombination) {$/;"	f	class:ColPack::GraphColoring
+CheckTriangularColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::CheckTriangularColoring()$/;"	f	class:ColPack::GraphColoring
+CheckVertexColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::CheckVertexColoring(string s_GraphColoringVariant)$/;"	f	class:ColPack::GraphColoring
+CheckVertexOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::CheckVertexOrdering() {$/;"	f	class:ColPack::GraphOrdering
+CheckVertexOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::CheckVertexOrdering(string s_VertexOrderingVariant)$/;"	f	class:ColPack::GraphOrdering
+Clear	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	void GraphColoring::Clear()$/;"	f	class:ColPack::GraphColoring
+Clear	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	void GraphColoringInterface::Clear()$/;"	f	class:ColPack::GraphColoringInterface
+Clear	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	void GraphCore::Clear() \/\/!< Reinitialize all variables$/;"	f	class:ColPack::GraphCore
+Clear	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	void GraphInputOutput::Clear()$/;"	f	class:ColPack::GraphInputOutput
+Clear	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	void GraphOrdering::Clear()$/;"	f	class:ColPack::GraphOrdering
+ClearColoringONLY	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	void GraphColoring::ClearColoringONLY()$/;"	f	class:ColPack::GraphColoring
+ClearOrderingONLY	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	void GraphOrdering::ClearOrderingONLY()$/;"	f	class:ColPack::GraphOrdering
+ColPack	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^namespace ColPack$/;"	n	file:
+ColPack	../../SRC/GeneralGraphColoring/GraphColoring.h	/^namespace ColPack$/;"	n
+ColPack	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^namespace ColPack$/;"	n	file:
+ColPack	../../SRC/GeneralGraphColoring/GraphColoringInterface.h	/^namespace ColPack$/;"	n
+ColPack	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^namespace ColPack$/;"	n	file:
+ColPack	../../SRC/GeneralGraphColoring/GraphCore.h	/^namespace ColPack$/;"	n
+ColPack	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^namespace ColPack$/;"	n	file:
+ColPack	../../SRC/GeneralGraphColoring/GraphInputOutput.h	/^namespace ColPack$/;"	n
+ColPack	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^namespace ColPack$/;"	n	file:
+ColPack	../../SRC/GeneralGraphColoring/GraphOrdering.h	/^namespace ColPack$/;"	n
+ColPack	../../SRC/Utilities/CoutLock.cpp	/^namespace ColPack$/;"	n	file:
+ColPack	../../SRC/Utilities/CoutLock.h	/^namespace ColPack$/;"	n
+ColPack	../../SRC/Utilities/DisjointSets.cpp	/^namespace ColPack$/;"	n	file:
+ColPack	../../SRC/Utilities/DisjointSets.h	/^namespace ColPack$/;"	n
+ColPack	../../SRC/Utilities/File.cpp	/^namespace ColPack$/;"	n	file:
+ColPack	../../SRC/Utilities/File.h	/^namespace ColPack$/;"	n
+ColPack	../../SRC/Utilities/StringTokenizer.cpp	/^namespace ColPack$/;"	n	file:
+ColPack	../../SRC/Utilities/StringTokenizer.h	/^namespace ColPack$/;"	n
+ColPack	../../SRC/Utilities/Timer.cpp	/^namespace ColPack$/;"	n	file:
+ColPack	../../SRC/Utilities/Timer.h	/^namespace ColPack$/;"	n
+Coloring	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::Coloring(string s_OrderingVariant, string s_ColoringVariant) {$/;"	f	class:ColPack::GraphColoringInterface
+ColoringBasedOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::ColoringBasedOrdering(vector<int> &vi_VertexColors)$/;"	f	class:ColPack::GraphOrdering
+Colors2Edge_Value	../../SRC/GeneralGraphColoring/GraphColoring.h	/^			Colors2Edge_Value() {$/;"	f	struct:ColPack::GraphColoring::Colors2Edge_Value
+Colors2Edge_Value	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		struct Colors2Edge_Value {$/;"	s	class:ColPack::GraphColoring
+CompressedRowMatricesAreEqual	../../SRC/Utilities/extra.cpp	/^bool CompressedRowMatricesAreEqual(double** dp3_Value, double** dp3_NewValue, int rowCount, bool compare_exact, bool print_all) {$/;"	f
+ConvertCoordinateFormat2RowCompressedFormat	../../SRC/Utilities/extra.cpp	/^int ConvertCoordinateFormat2RowCompressedFormat(unsigned int* uip1_RowIndex, unsigned int* uip1_ColumnIndex, double* dp1_HessianValue, int i_RowCount, int i_NonZeroCount, unsigned int *** dp3_Pattern, double*** dp3_Values ) {$/;"	f
+ConvertFileDIMACSFormat2MatrixMarketFormat	../../SRC/Utilities/extra.cpp	/^void ConvertFileDIMACSFormat2MatrixMarketFormat(string fileNameNoExt) {$/;"	f
+ConvertHarwellBoeingDouble	../../SRC/Utilities/extra.cpp	/^int ConvertHarwellBoeingDouble(string & num_string) {$/;"	f
+ConvertMatrixMarketFormat2RowCompressedFormat	../../SRC/Utilities/extra.cpp	/^int ConvertMatrixMarketFormat2RowCompressedFormat(string s_InputFile, unsigned int *** uip3_SparsityPattern, double*** dp3_Value, int &rowCount, int &columnCount) {$/;"	f
+ConvertRowCompressedFormat2ADIC	../../SRC/Utilities/extra.cpp	/^int ConvertRowCompressedFormat2ADIC(unsigned int ** uip2_SparsityPattern_RowCompressedFormat, int i_rowCount , double** dp2_Value, std::list<std::set<int> > &lsi_valsetlist, std::list<std::vector<double> > &lvd_Value) {$/;"	f
+ConvertRowCompressedFormat2CSR	../../SRC/Utilities/extra.cpp	/^int ConvertRowCompressedFormat2CSR(unsigned int ** uip2_SparsityPattern_RowCompressedFormat, int i_rowCount, int** ip_RowIndex, int** ip_ColumnIndex) {$/;"	f
+ConvertRowCompressedFormat2SparseSolversFormat_StructureOnly	../../SRC/Utilities/extra.cpp	/^int ConvertRowCompressedFormat2SparseSolversFormat_StructureOnly (unsigned int ** uip2_HessianSparsityPattern, unsigned int ui_rowCount, unsigned int** ip2_RowIndex, unsigned int** ip2_ColumnIndex) {$/;"	f
+Count	../../SRC/Utilities/DisjointSets.cpp	/^	int DisjointSets::Count()$/;"	f	class:ColPack::DisjointSets
+CountTokens	../../SRC/Utilities/StringTokenizer.cpp	/^	int StringTokenizer::CountTokens()$/;"	f	class:ColPack::StringTokenizer
+CountTokens	../../SRC/Utilities/StringTokenizer.cpp	/^	int StringTokenizer::CountTokens(char * DelimiterChar)$/;"	f	class:ColPack::StringTokenizer
+CoutLock	../../SRC/Utilities/CoutLock.h	/^	class CoutLock$/;"	c	namespace:ColPack
+D1_OMP_cx	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^int GraphColoring::D1_OMP_cx(){$/;"	f	class:ColPack::GraphColoring
+DIR_SEPARATOR	../../SRC/Utilities/File.h	32;"	d
+DISJOINTSETS_H	../../SRC/Utilities/DisjointSets.h	22;"	d
+DOT	../../SRC/Utilities/extra.h	51;"	d
+DelimiterString	../../SRC/Utilities/StringTokenizer.h	/^		string DelimiterString;$/;"	m	class:ColPack::StringTokenizer
+DetectConflictInColorCombination	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::DetectConflictInColorCombination(int i_MaxNumThreads, int i_thread_num, pair<int, int> pii_ColorCombination, map< pair<int, int>, Colors2Edge_Value , lt_pii>* Colors2Edge_Private,$/;"	f	class:ColPack::GraphColoring
+DisjointSets	../../SRC/Utilities/DisjointSets.cpp	/^	DisjointSets::DisjointSets()$/;"	f	class:ColPack::DisjointSets
+DisjointSets	../../SRC/Utilities/DisjointSets.cpp	/^	DisjointSets::DisjointSets(int li_SetSize)$/;"	f	class:ColPack::DisjointSets
+DisjointSets	../../SRC/Utilities/DisjointSets.h	/^	class DisjointSets$/;"	c	namespace:ColPack
+DisplayADICFormat_Sparsity	../../SRC/Utilities/extra.cpp	/^int DisplayADICFormat_Sparsity(std::list<std::set<int> > &lsi_valsetlist) {$/;"	f
+DisplayADICFormat_Value	../../SRC/Utilities/extra.cpp	/^int DisplayADICFormat_Value(std::list<std::vector<double> > &lvd_Value) {$/;"	f
+DistanceOneColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::DistanceOneColoring()$/;"	f	class:ColPack::GraphColoring
+DistanceOneColoring	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::DistanceOneColoring(string s_OrderingVariant)$/;"	f	class:ColPack::GraphColoringInterface
+DistanceOneColoring_OMP	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^    int GraphColoring::DistanceOneColoring_OMP(){$/;"	f	class:ColPack::GraphColoring
+DistanceOneColoring_OMP	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::DistanceOneColoring_OMP(string s_OrderingVariant)$/;"	f	class:ColPack::GraphColoringInterface
+DistanceTwoColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::DistanceTwoColoring()$/;"	f	class:ColPack::GraphColoring
+DistanceTwoColoring	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::DistanceTwoColoring(string s_OrderingVariant)$/;"	f	class:ColPack::GraphColoringInterface
+DistanceTwoDynamicLargestFirstOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::DistanceTwoDynamicLargestFirstOrdering()$/;"	f	class:ColPack::GraphOrdering
+DistanceTwoIncidenceDegreeOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::DistanceTwoIncidenceDegreeOrdering()$/;"	f	class:ColPack::GraphOrdering
+DistanceTwoLargestFirstOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::DistanceTwoLargestFirstOrdering()$/;"	f	class:ColPack::GraphOrdering
+DistanceTwoSmallestLastOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::DistanceTwoSmallestLastOrdering()$/;"	f	class:ColPack::GraphOrdering
+DynamicLargestFirstOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^        int GraphOrdering::DynamicLargestFirstOrdering() {$/;"	f	class:ColPack::GraphOrdering
+EXTRA_CPP	../../SRC/Utilities/extra.cpp	22;"	d	file:
+EXTRA_H	../../SRC/Utilities/extra.h	22;"	d
+EXTRA_H_TEMPLATE_FUNCTIONS	../../SRC/Utilities/extra.h	230;"	d
+FDP	../../SRC/Utilities/extra.h	55;"	d
+FILE_H	../../SRC/Utilities/File.h	22;"	d
+File	../../SRC/Utilities/File.cpp	/^	File::File()$/;"	f	class:ColPack::File
+File	../../SRC/Utilities/File.cpp	/^	File::File(string fileName)$/;"	f	class:ColPack::File
+File	../../SRC/Utilities/File.h	/^	class File$/;"	c	namespace:ColPack
+FileVertexColoringMetrics	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::FileVertexColoringMetrics()$/;"	f	class:ColPack::GraphColoring
+FileVertexColors	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::FileVertexColors()$/;"	f	class:ColPack::GraphColoring
+Find	../../SRC/Utilities/DisjointSets.cpp	/^	int DisjointSets::Find(int li_Node)$/;"	f	class:ColPack::DisjointSets
+FindAndCompress	../../SRC/Utilities/DisjointSets.cpp	/^	int DisjointSets::FindAndCompress(int li_Node)$/;"	f	class:ColPack::DisjointSets
+FindCycle	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::FindCycle(int i_Vertex, int i_AdjacentVertex, int i_DistanceOneVertex, int i_SetID, vector<int> & vi_CandidateColors, vector<int> & vi_FirstVisitedOne, vector<int> & vi_FirstVisitedTwo)$/;"	f	class:ColPack::GraphColoring
+FindDistance	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::FindDistance(int v1, int v2) {$/;"	f	class:ColPack::GraphColoring
+GRAPHCOLORINGINTERFACE_H	../../SRC/GeneralGraphColoring/GraphColoringInterface.h	22;"	d
+GRAPHCOLORING_H	../../SRC/GeneralGraphColoring/GraphColoring.h	22;"	d
+GRAPHCORE_H	../../SRC/GeneralGraphColoring/GraphCore.h	24;"	d
+GRAPHINPUTOUTPUT_H	../../SRC/GeneralGraphColoring/GraphInputOutput.h	22;"	d
+GRAPHORDERING_H	../../SRC/GeneralGraphColoring/GraphOrdering.h	22;"	d
+GenerateSeedHessian	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	void GraphColoringInterface::GenerateSeedHessian(double*** dp3_seed, int *ip1_SeedRowCount, int *ip1_SeedColumnCount, string s_OrderingVariant, string s_ColoringVariant) {$/;"	f	class:ColPack::GraphColoringInterface
+GenerateSeedHessian_unmanaged	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	void GraphColoringInterface::GenerateSeedHessian_unmanaged(double*** dp3_seed, int *ip1_SeedRowCount, int *ip1_SeedColumnCount, string s_OrderingVariant, string s_ColoringVariant) {$/;"	f	class:ColPack::GraphColoringInterface
+GenerateValues	../../SRC/Utilities/extra.cpp	/^int GenerateValues(unsigned int ** uip2_SparsityPattern, int rowCount, double*** dp3_Value) {$/;"	f
+GenerateValuesForSymmetricMatrix	../../SRC/Utilities/extra.cpp	/^int GenerateValuesForSymmetricMatrix(unsigned int ** uip2_SparsityPattern, int rowCount, double*** dp3_Value) {$/;"	f
+GetAverageVertexDegree	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	double GraphCore::GetAverageVertexDegree()$/;"	f	class:ColPack::GraphCore
+GetD1Neighbor	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	void GraphCore::GetD1Neighbor(int VertexIndex, vector<int> &D1Neighbor, int excludedVertex) {$/;"	f	class:ColPack::GraphCore
+GetDelimiterString	../../SRC/Utilities/StringTokenizer.cpp	/^	string StringTokenizer::GetDelimiterString() const$/;"	f	class:ColPack::StringTokenizer
+GetDisjointSets	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	void GraphCore::GetDisjointSets(DisjointSets &output)$/;"	f	class:ColPack::GraphCore
+GetEdgeCount	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	int GraphCore::GetEdgeCount()$/;"	f	class:ColPack::GraphCore
+GetEdges	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	void GraphCore::GetEdges(vector<int> &output) const$/;"	f	class:ColPack::GraphCore
+GetEdgesPtr	../../SRC/GeneralGraphColoring/GraphCore.h	/^		vector <int>* GetEdgesPtr(){ return &m_vi_Edges; }$/;"	f	class:ColPack::GraphCore
+GetFileExtension	../../SRC/Utilities/File.cpp	/^	string File::GetFileExtension() const {return fileExtension;}$/;"	f	class:ColPack::File
+GetFirstToken	../../SRC/Utilities/StringTokenizer.cpp	/^	string StringTokenizer::GetFirstToken()$/;"	f	class:ColPack::StringTokenizer
+GetFullName	../../SRC/Utilities/File.cpp	/^	string File::GetFullName() const {return name+"."+fileExtension;}$/;"	f	class:ColPack::File
+GetHubCount	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::GetHubCount()$/;"	f	class:ColPack::GraphColoring
+GetInputFile	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	string GraphCore::GetInputFile()$/;"	f	class:ColPack::GraphCore
+GetInputFile	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	string GraphInputOutput::GetInputFile()$/;"	f	class:ColPack::GraphInputOutput
+GetInputString	../../SRC/Utilities/StringTokenizer.cpp	/^	string StringTokenizer::GetInputString() const$/;"	f	class:ColPack::StringTokenizer
+GetLastToken	../../SRC/Utilities/StringTokenizer.cpp	/^	string StringTokenizer::GetLastToken()$/;"	f	class:ColPack::StringTokenizer
+GetMaxBackDegree	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::GetMaxBackDegree() {$/;"	f	class:ColPack::GraphOrdering
+GetMaximumVertexDegree	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	int GraphCore::GetMaximumVertexDegree()$/;"	f	class:ColPack::GraphCore
+GetMinimumVertexDegree	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	int GraphCore::GetMinimumVertexDegree()$/;"	f	class:ColPack::GraphCore
+GetName	../../SRC/Utilities/File.cpp	/^	string File::GetName() const {return name;}$/;"	f	class:ColPack::File
+GetNextToken	../../SRC/Utilities/StringTokenizer.cpp	/^	string StringTokenizer::GetNextToken()$/;"	f	class:ColPack::StringTokenizer
+GetNextToken	../../SRC/Utilities/StringTokenizer.cpp	/^	string StringTokenizer::GetNextToken(char * DelimiterChar)$/;"	f	class:ColPack::StringTokenizer
+GetOrderedVertices	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	void GraphColoringInterface::GetOrderedVertices(vector<int> &output) {$/;"	f	class:ColPack::GraphColoringInterface
+GetOrderedVertices	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	void GraphOrdering::GetOrderedVertices(vector<int> &output)$/;"	f	class:ColPack::GraphOrdering
+GetOrderedVerticesPtr	../../SRC/GeneralGraphColoring/GraphOrdering.h	/^		vector <int>* GetOrderedVerticesPtr(){ return &m_vi_OrderedVertices; }$/;"	f	class:ColPack::GraphOrdering
+GetPath	../../SRC/Utilities/File.cpp	/^	string File::GetPath() const {return path;}$/;"	f	class:ColPack::File
+GetProcessorTime	../../SRC/Utilities/Timer.cpp	/^	double Timer::GetProcessorTime()$/;"	f	class:ColPack::Timer
+GetSeedMatrix	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	double** GraphColoring::GetSeedMatrix(int* i_SeedRowCount, int* i_SeedColumnCount) {$/;"	f	class:ColPack::GraphColoring
+GetSeedMatrix	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	double** GraphColoringInterface::GetSeedMatrix(int* ip1_SeedRowCount, int* ip1_SeedColumnCount) {$/;"	f	class:ColPack::GraphColoringInterface
+GetSeedMatrix_unmanaged	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	double** GraphColoring::GetSeedMatrix_unmanaged(int* i_SeedRowCount, int* i_SeedColumnCount) {$/;"	f	class:ColPack::GraphColoring
+GetSetCount	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::GetSetCount()$/;"	f	class:ColPack::GraphColoring
+GetStarColoringConflicts	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::GetStarColoringConflicts(vector<vector<int> > &ListOfConflicts)$/;"	f	class:ColPack::GraphColoring
+GetSystemProcessorTime	../../SRC/Utilities/Timer.cpp	/^	double Timer::GetSystemProcessorTime()$/;"	f	class:ColPack::Timer
+GetToken	../../SRC/Utilities/StringTokenizer.cpp	/^	string StringTokenizer::GetToken(int TokenPosition)$/;"	f	class:ColPack::StringTokenizer
+GetUserProcessorTime	../../SRC/Utilities/Timer.cpp	/^	double Timer::GetUserProcessorTime()$/;"	f	class:ColPack::Timer
+GetValues	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	void GraphCore::GetValues(vector<double> &output) const$/;"	f	class:ColPack::GraphCore
+GetVertexColorCount	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::GetVertexColorCount()$/;"	f	class:ColPack::GraphColoring
+GetVertexColorCount	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::GetVertexColorCount(){$/;"	f	class:ColPack::GraphColoringInterface
+GetVertexColoringCheckingTime	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	double GraphColoring::GetVertexColoringCheckingTime()$/;"	f	class:ColPack::GraphColoring
+GetVertexColoringTime	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	double GraphColoring::GetVertexColoringTime()$/;"	f	class:ColPack::GraphColoring
+GetVertexColoringVariant	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	string GraphColoring::GetVertexColoringVariant()$/;"	f	class:ColPack::GraphColoring
+GetVertexColors	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	void GraphColoring::GetVertexColors(vector<int> &output)$/;"	f	class:ColPack::GraphColoring
+GetVertexColorsPtr	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		vector <int>* GetVertexColorsPtr(){ return &m_vi_VertexColors; }$/;"	f	class:ColPack::GraphColoring
+GetVertexCount	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	int GraphCore::GetVertexCount()$/;"	f	class:ColPack::GraphCore
+GetVertexEdgeMap	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	void GraphCore::GetVertexEdgeMap(map< int, map< int, int> > &output)$/;"	f	class:ColPack::GraphCore
+GetVertexOrderingTime	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	double GraphOrdering::GetVertexOrderingTime()$/;"	f	class:ColPack::GraphOrdering
+GetVertexOrderingVariant	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	string GraphOrdering::GetVertexOrderingVariant()$/;"	f	class:ColPack::GraphOrdering
+GetVertices	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	void GraphCore::GetVertices(vector<int> &output) const$/;"	f	class:ColPack::GraphCore
+GetVerticesPtr	../../SRC/GeneralGraphColoring/GraphCore.h	/^		vector <int>* GetVerticesPtr(){ return &m_vi_Vertices; }$/;"	f	class:ColPack::GraphCore
+GetWallTime	../../SRC/Utilities/Timer.cpp	/^	double Timer::GetWallTime()$/;"	f	class:ColPack::Timer
+GraphColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	GraphColoring::GraphColoring() : GraphOrdering()$/;"	f	class:ColPack::GraphColoring
+GraphColoring	../../SRC/GeneralGraphColoring/GraphColoring.h	/^	class GraphColoring : public GraphOrdering$/;"	c	namespace:ColPack
+GraphColoringInterface	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	GraphColoringInterface::GraphColoringInterface(int i_type, ...)$/;"	f	class:ColPack::GraphColoringInterface
+GraphColoringInterface	../../SRC/GeneralGraphColoring/GraphColoringInterface.h	/^	class GraphColoringInterface : public GraphColoring$/;"	c	namespace:ColPack
+GraphCore	../../SRC/GeneralGraphColoring/GraphCore.h	/^	class GraphCore$/;"	c	namespace:ColPack
+GraphInputOutput	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	GraphInputOutput::GraphInputOutput()$/;"	f	class:ColPack::GraphInputOutput
+GraphInputOutput	../../SRC/GeneralGraphColoring/GraphInputOutput.h	/^	class GraphInputOutput : public GraphCore$/;"	c	namespace:ColPack
+GraphOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	GraphOrdering::GraphOrdering() :GraphInputOutput()$/;"	f	class:ColPack::GraphOrdering
+GraphOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.h	/^	class GraphOrdering : public GraphInputOutput$/;"	c	namespace:ColPack
+HasMoreTokens	../../SRC/Utilities/StringTokenizer.cpp	/^	int StringTokenizer::HasMoreTokens()$/;"	f	class:ColPack::StringTokenizer
+HasMoreTokens	../../SRC/Utilities/StringTokenizer.cpp	/^	int StringTokenizer::HasMoreTokens(char * DelimiterChar)$/;"	f	class:ColPack::StringTokenizer
+IncidenceDegreeOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^        int GraphOrdering::IncidenceDegreeOrdering()$/;"	f	class:ColPack::GraphOrdering
+InputString	../../SRC/Utilities/StringTokenizer.h	/^		string InputString;$/;"	m	class:ColPack::StringTokenizer
+LargestFirstOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::LargestFirstOrdering()$/;"	f	class:ColPack::GraphOrdering
+MATRIXDEALLOCATION_H	../../SRC/Utilities/MatrixDeallocation.h	24;"	d
+MM_ARRAY_STR	../../SRC/Utilities/mmio.h	105;"	d
+MM_COMPLEX_STR	../../SRC/Utilities/mmio.h	109;"	d
+MM_COORDINATE_STR	../../SRC/Utilities/mmio.h	107;"	d
+MM_COULD_NOT_READ_FILE	../../SRC/Utilities/mmio.h	79;"	d
+MM_COULD_NOT_WRITE_FILE	../../SRC/Utilities/mmio.h	85;"	d
+MM_DENSE_STR	../../SRC/Utilities/mmio.h	106;"	d
+MM_GENERAL_STR	../../SRC/Utilities/mmio.h	112;"	d
+MM_HERM_STR	../../SRC/Utilities/mmio.h	114;"	d
+MM_INT_STR	../../SRC/Utilities/mmio.h	111;"	d
+MM_IO_H	../../SRC/Utilities/mmio.h	10;"	d
+MM_LINE_TOO_LONG	../../SRC/Utilities/mmio.h	84;"	d
+MM_MAX_LINE_LENGTH	../../SRC/Utilities/mmio.h	12;"	d
+MM_MAX_TOKEN_LENGTH	../../SRC/Utilities/mmio.h	14;"	d
+MM_MTX_STR	../../SRC/Utilities/mmio.h	104;"	d
+MM_NOT_MTX	../../SRC/Utilities/mmio.h	81;"	d
+MM_NO_HEADER	../../SRC/Utilities/mmio.h	82;"	d
+MM_PATTERN_STR	../../SRC/Utilities/mmio.h	116;"	d
+MM_PREMATURE_EOF	../../SRC/Utilities/mmio.h	80;"	d
+MM_REAL_STR	../../SRC/Utilities/mmio.h	110;"	d
+MM_SKEW_STR	../../SRC/Utilities/mmio.h	115;"	d
+MM_SPARSE_STR	../../SRC/Utilities/mmio.h	108;"	d
+MM_SYMM_STR	../../SRC/Utilities/mmio.h	113;"	d
+MM_UNSUPPORTED_TYPE	../../SRC/Utilities/mmio.h	83;"	d
+MM_typecode	../../SRC/Utilities/mmio.h	/^typedef char MM_typecode[4];$/;"	t
+MatrixDeallocation_CoordinateFormat	../../SRC/Utilities/MatrixDeallocation.cpp	/^int MatrixDeallocation_CoordinateFormat(unsigned int **ip2_RowIndex, unsigned int **ip2_ColumnIndex, double **dp2_HessianValue) {$/;"	f
+MatrixDeallocation_RowCompressedFormat	../../SRC/Utilities/MatrixDeallocation.cpp	/^int MatrixDeallocation_RowCompressedFormat(double ***dp3_HessianValue, unsigned int i_numOfRows) {$/;"	f
+MatrixDeallocation_SparseSolversFormat	../../SRC/Utilities/MatrixDeallocation.cpp	/^int MatrixDeallocation_SparseSolversFormat(unsigned int **ip2_RowIndex, unsigned int **ip2_ColumnIndex, double **dp2_JacobianValue) {$/;"	f
+MatrixMarketBanner	../../SRC/Utilities/mmio.h	13;"	d
+MatrixMultiplication_SxV	../../SRC/Utilities/extra.cpp	/^int MatrixMultiplication_SxV(unsigned int ** uip3_SparsityPattern, double** dp3_Value, int rowCount, int columnCount, double** dp2_seed, int colorCount, double*** dp3_CompressedMatrix) {$/;"	f
+MatrixMultiplication_VxS	../../SRC/Utilities/extra.cpp	/^int MatrixMultiplication_VxS(unsigned int ** uip3_SparsityPattern, double** dp3_Value, int rowCount, int columnCount, double** dp2_seed, int colorCount, double*** dp3_CompressedMatrix) {$/;"	f
+MatrixMultiplication_VxS__usingVertexPartialColors	../../SRC/Utilities/extra.cpp	/^int MatrixMultiplication_VxS__usingVertexPartialColors(std::list<std::set<int> > &lsi_SparsityPattern, std::list<std::vector<double> > &lvd_Value, int columnCount, vector<int> &vi_VertexPartialColors, int colorCount, double*** dp3_CompressedMatrix) {$/;"	f
+ModifiedTriangularColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::ModifiedTriangularColoring()$/;"	f	class:ColPack::GraphColoring
+NEATO	../../SRC/Utilities/extra.h	52;"	d
+NaiveStarColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::NaiveStarColoring()$/;"	f	class:ColPack::GraphColoring
+NaiveStarColoring	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::NaiveStarColoring(string s_OrderingVariant)$/;"	f	class:ColPack::GraphColoringInterface
+NaturalOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::NaturalOrdering()$/;"	f	class:ColPack::GraphOrdering
+OrderVertices	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::OrderVertices(string s_OrderingVariant)$/;"	f	class:ColPack::GraphOrdering
+Parse	../../SRC/Utilities/File.cpp	/^	void File::Parse(string fileName) {$/;"	f	class:ColPack::File
+ParseWidth	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::ParseWidth(string FortranFormat)$/;"	f	class:ColPack::GraphInputOutput
+Pause	../../SRC/Utilities/Pause.cpp	/^void Pause()$/;"	f
+PickVerticesToBeRecolored	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PickVerticesToBeRecolored(int i_MaxNumThreads, vector< pair<int, int> > *ConflictedEdges_Private, vector<int> &ConflictCount) {$/;"	f	class:ColPack::GraphColoring
+Print	../../SRC/Utilities/DisjointSets.cpp	/^	int DisjointSets::Print()$/;"	f	class:ColPack::DisjointSets
+PrintAllColorCombination	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintAllColorCombination(map< pair<int, int>, Colors2Edge_Value , lt_pii>* Colors2Edge_Private, int i_MaxNumThreads, int i_MaxNumOfCombination, int i_MaxElementsOfCombination) {$/;"	f	class:ColPack::GraphColoring
+PrintColorCombination	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintColorCombination(map< pair<int, int>, Colors2Edge_Value , lt_pii>* Colors2Edge_Private, int i_MaxNumThreads, pair<int, int> pii_ColorCombination, int i_MaxElementsOfCombination) {$/;"	f	class:ColPack::GraphColoring
+PrintConflictCount	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintConflictCount(vector<int> &ConflictCount) {$/;"	f	class:ColPack::GraphColoring
+PrintConflictEdges	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintConflictEdges(vector< pair<int, int> > *ConflictedEdges_Private, int i_MaxNumThreads) {$/;"	f	class:ColPack::GraphColoring
+PrintD1Colors	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintD1Colors(map<int, int>* D1Colors, int i_thread_num) {$/;"	f	class:ColPack::GraphColoring
+PrintForbiddenColors	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintForbiddenColors(map<int, bool>* mip_ForbiddenColors,int i_thread_num) {$/;"	f	class:ColPack::GraphColoring
+PrintGraph	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::PrintGraph()$/;"	f	class:ColPack::GraphInputOutput
+PrintGraphStructure	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::PrintGraphStructure()$/;"	f	class:ColPack::GraphInputOutput
+PrintGraphStructure2	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::PrintGraphStructure2()$/;"	f	class:ColPack::GraphInputOutput
+PrintInducedVertexDegrees	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	void GraphColoringInterface::PrintInducedVertexDegrees(int SetID, int i_HighestInducedVertexDegree, vector< list<int> > &vli_GroupedInducedVertexDegrees) {$/;"	f	class:ColPack::GraphColoringInterface
+PrintMatrix	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::PrintMatrix()$/;"	f	class:ColPack::GraphInputOutput
+PrintMatrix	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::PrintMatrix(vector<int> & vi_Vertices, vector<int> & vi_Edges, vector<double> & vd_Values)$/;"	f	class:ColPack::GraphInputOutput
+PrintPotentialHub	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintPotentialHub(map< int, int> *PotentialHub_Private, int i_thread_num, pair<int, int> pii_ColorCombination) {$/;"	f	class:ColPack::GraphColoring
+PrintStarCollection	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintStarCollection(vector<int>& vi_EdgeStarMap, vector<int>& vi_StarHubMap, map< int, map<int, int> >& mimi2_VertexEdgeMap) {$/;"	f	class:ColPack::GraphColoring
+PrintSubGraph	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintSubGraph(map< int, map<int,bool> > *graph) {$/;"	f	class:ColPack::GraphColoring
+PrintVertex2ColorCombination	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintVertex2ColorCombination (vector<  map <int, int > > *Vertex2ColorCombination) {$/;"	f	class:ColPack::GraphColoring
+PrintVertex2ColorCombination	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintVertex2ColorCombination(int i_MaxNumThreads, map< int, vector< pair<int, int> > > *Vertex2ColorCombination_Private) {$/;"	f	class:ColPack::GraphColoring
+PrintVertex2ColorCombination_raw	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintVertex2ColorCombination_raw (vector<  map <int, int > > *Vertex2ColorCombination) {$/;"	f	class:ColPack::GraphColoring
+PrintVertexAndColorAdded	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintVertexAndColorAdded(int i_MaxNumThreads, vector< pair<int, int> > *vi_VertexAndColorAdded, int i_LastNEntries) {$/;"	f	class:ColPack::GraphColoring
+PrintVertexColorClasses	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	void GraphColoring::PrintVertexColorClasses()$/;"	f	class:ColPack::GraphColoring
+PrintVertexColorCombination	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintVertexColorCombination(map <int, int >* VertexColorCombination) {$/;"	f	class:ColPack::GraphColoring
+PrintVertexColoringMetrics	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintVertexColoringMetrics()$/;"	f	class:ColPack::GraphColoring
+PrintVertexColors	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintVertexColors()$/;"	f	class:ColPack::GraphColoring
+PrintVertexD1Neighbor	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	void GraphCore::PrintVertexD1Neighbor(int VertexIndex, int excludedVertex) {$/;"	f	class:ColPack::GraphCore
+PrintVertexD1NeighborAndColor	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::PrintVertexD1NeighborAndColor(int VertexIndex, int excludedVertex) {$/;"	f	class:ColPack::GraphColoring
+PrintVertexD2Neighbor	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	void GraphCore::PrintVertexD2Neighbor(int VertexIndex) {$/;"	f	class:ColPack::GraphCore
+PrintVertexDegrees	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	void GraphInputOutput::PrintVertexDegrees()$/;"	f	class:ColPack::GraphInputOutput
+PrintVertexEdgeMap	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	void GraphColoringInterface::PrintVertexEdgeMap(vector<int> &vi_Vertices, vector<int> &vi_Edges , map< int, map< int, int> > &mimi2_VertexEdgeMap) {$/;"	f	class:ColPack::GraphColoringInterface
+PrintVertexOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	void GraphOrdering::PrintVertexOrdering() {$/;"	f	class:ColPack::GraphOrdering
+RandomOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::RandomOrdering()$/;"	f	class:ColPack::GraphOrdering
+ReadAdjacencyGraph	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::ReadAdjacencyGraph(string s_InputFile, string s_fileFormat)$/;"	f	class:ColPack::GraphInputOutput
+ReadHarwellBoeingAdjacencyGraph	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::ReadHarwellBoeingAdjacencyGraph(string s_InputFile) {$/;"	f	class:ColPack::GraphInputOutput
+ReadMatrixMarketAdjacencyGraph	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::ReadMatrixMarketAdjacencyGraph(string s_InputFile, bool b_getStructureOnly)$/;"	f	class:ColPack::GraphInputOutput
+ReadMeTiSAdjacencyGraph	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::ReadMeTiSAdjacencyGraph(string s_InputFile)$/;"	f	class:ColPack::GraphInputOutput
+ReadMeTiSAdjacencyGraph2	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::ReadMeTiSAdjacencyGraph2(string s_InputFile)$/;"	f	class:ColPack::GraphInputOutput
+ReadRowCompressedFormat	../../SRC/Utilities/extra.cpp	/^int ReadRowCompressedFormat(string s_InputFile, unsigned int *** uip3_SparsityPattern, int& rowCount, int& columnCount) {$/;"	f
+RestrictedStarColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::RestrictedStarColoring()$/;"	f	class:ColPack::GraphColoring
+RestrictedStarColoring	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::RestrictedStarColoring(string s_OrderingVariant)$/;"	f	class:ColPack::GraphColoringInterface
+STAT_H	../../SRC/Utilities/stat.h	3;"	d
+STRINGTOKENIZER_H	../../SRC/Utilities/StringTokenizer.h	22;"	d
+SearchDepthFirst	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::SearchDepthFirst(int i_RootVertex, int i_ParentVertex, int i_Vertex, vector<int> & vi_TouchedVertices)$/;"	f	class:ColPack::GraphColoring
+Seed_init	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	void GraphColoring::Seed_init() {$/;"	f	class:ColPack::GraphColoring
+Seed_reset	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	void GraphColoring::Seed_reset() {$/;"	f	class:ColPack::GraphColoring
+SetDelimiterString	../../SRC/Utilities/StringTokenizer.cpp	/^	int StringTokenizer::SetDelimiterString(char * DelimiterChar)$/;"	f	class:ColPack::StringTokenizer
+SetFileExtension	../../SRC/Utilities/File.cpp	/^	void File::SetFileExtension(string newFileExtension) {fileExtension = newFileExtension;}$/;"	f	class:ColPack::File
+SetInputString	../../SRC/Utilities/StringTokenizer.cpp	/^	int StringTokenizer::SetInputString(char * InputChar)$/;"	f	class:ColPack::StringTokenizer
+SetName	../../SRC/Utilities/File.cpp	/^	void File::SetName(string newName) {name = newName;}$/;"	f	class:ColPack::File
+SetPath	../../SRC/Utilities/File.cpp	/^	void File::SetPath(string newPath) {path = newPath;}$/;"	f	class:ColPack::File
+SetSize	../../SRC/Utilities/DisjointSets.cpp	/^	int DisjointSets::SetSize(int li_SetSize)$/;"	f	class:ColPack::DisjointSets
+SetStringVertexColoringVariant	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	void GraphColoring::SetStringVertexColoringVariant(string s)$/;"	f	class:ColPack::GraphColoring
+SetVertexColorCount	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	void GraphColoring::SetVertexColorCount(int i_VertexColorCount)$/;"	f	class:ColPack::GraphColoring
+SetVertexColoringVariant	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	void GraphColoring::SetVertexColoringVariant(string s_VertexColoringVariant)$/;"	f	class:ColPack::GraphColoring
+SmallestLastOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^        int GraphOrdering::SmallestLastOrdering() {$/;"	f	class:ColPack::GraphOrdering
+SmallestLastOrdering_serial	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^        int GraphOrdering::SmallestLastOrdering_serial()$/;"	f	class:ColPack::GraphOrdering
+StarColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::StarColoring() {$/;"	f	class:ColPack::GraphColoring
+StarColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::StarColoring(vector<int> & vi_StarHubMap, vector<int> & vi_EdgeStarMap, map< int, map<int, int> > & mimi2_VertexEdgeMap)$/;"	f	class:ColPack::GraphColoring
+StarColoring	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::StarColoring(string s_OrderingVariant)$/;"	f	class:ColPack::GraphColoringInterface
+StarColoring_serial	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::StarColoring_serial()$/;"	f	class:ColPack::GraphColoring
+StarColoring_serial2	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::StarColoring_serial2() {$/;"	f	class:ColPack::GraphColoring
+Start	../../SRC/Utilities/Timer.cpp	/^	void Timer::Start()$/;"	f	class:ColPack::Timer
+Stop	../../SRC/Utilities/Timer.cpp	/^	void Timer::Stop()$/;"	f	class:ColPack::Timer
+StringTokenizer	../../SRC/Utilities/StringTokenizer.cpp	/^	StringTokenizer::StringTokenizer()$/;"	f	class:ColPack::StringTokenizer
+StringTokenizer	../../SRC/Utilities/StringTokenizer.cpp	/^	StringTokenizer::StringTokenizer(char * InputChar)$/;"	f	class:ColPack::StringTokenizer
+StringTokenizer	../../SRC/Utilities/StringTokenizer.cpp	/^	StringTokenizer::StringTokenizer(char * InputChar, char * DelimiterChar)$/;"	f	class:ColPack::StringTokenizer
+StringTokenizer	../../SRC/Utilities/StringTokenizer.cpp	/^	StringTokenizer::StringTokenizer(string InputChar, char * DelimiterChar)$/;"	f	class:ColPack::StringTokenizer
+StringTokenizer	../../SRC/Utilities/StringTokenizer.cpp	/^	StringTokenizer::StringTokenizer(string InputChar, string DelimiterChar)$/;"	f	class:ColPack::StringTokenizer
+StringTokenizer	../../SRC/Utilities/StringTokenizer.h	/^	class StringTokenizer$/;"	c	namespace:ColPack
+TIMER_H	../../SRC/Utilities/Timer.h	39;"	d
+TWOPI	../../SRC/Utilities/extra.h	53;"	d
+Timer	../../SRC/Utilities/Timer.cpp	/^	Timer::Timer()$/;"	f	class:ColPack::Timer
+Timer	../../SRC/Utilities/Timer.h	/^	class Timer$/;"	c	namespace:ColPack
+Times2	../../SRC/Utilities/extra.cpp	/^int Times2(double** dp2_Values, int i_RowCount, int i_ColumnCount) {$/;"	f
+Times2Plus1point5	../../SRC/Utilities/extra.cpp	/^int Times2Plus1point5(double** dp2_Values, int i_RowCount, int i_ColumnCount) {$/;"	f
+TokenString	../../SRC/Utilities/StringTokenizer.h	/^		string TokenString;$/;"	m	class:ColPack::StringTokenizer
+TriangularColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::TriangularColoring()$/;"	f	class:ColPack::GraphColoring
+TriangularColoring	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	int GraphColoringInterface::TriangularColoring(string s_OrderingVariant)$/;"	f	class:ColPack::GraphColoringInterface
+Union	../../SRC/Utilities/DisjointSets.cpp	/^	int DisjointSets::Union(int li_SetOne, int li_SetTwo)$/;"	f	class:ColPack::DisjointSets
+UnionByRank	../../SRC/Utilities/DisjointSets.cpp	/^	int DisjointSets::UnionByRank(int li_SetOne, int li_SetTwo)$/;"	f	class:ColPack::DisjointSets
+UnionBySize	../../SRC/Utilities/DisjointSets.cpp	/^	int DisjointSets::UnionBySize(int li_SetOne, int li_SetTwo)$/;"	f	class:ColPack::DisjointSets
+UpdateSet	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	int GraphColoring::UpdateSet(int i_Vertex, int i_AdjacentVertex, int i_DistanceOneVertex, map< int, map<int, int> > & mimi2_VertexEdgeMap, vector<int> & vi_FirstSeenOne, vector<int> & vi_FirstSeenTwo, vector<int> & vi_FirstSeenThree)$/;"	f	class:ColPack::GraphColoring
+WriteMatrixMarket	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	int GraphInputOutput::WriteMatrixMarket(string s_OutputFile, bool b_getStructureOnly) {$/;"	f	class:ColPack::GraphInputOutput
+WriteMatrixMarket_ADOLCInput	../../SRC/Utilities/extra.cpp	/^int WriteMatrixMarket_ADOLCInput(string s_postfix, int i_mode, ...) {$/;"	f
+areEqual	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	bool GraphCore::areEqual(const GraphCore &other, bool structureOnly) const {$/;"	f	class:ColPack::GraphCore
+buildDotWithColor	../../SRC/Utilities/extra.cpp	/^int buildDotWithColor(ColPack::BipartiteGraphBicoloringInterface &g, vector<string> &ListOfColors, string fileName) {$/;"	f
+buildDotWithColor	../../SRC/Utilities/extra.cpp	/^int buildDotWithColor(ColPack::BipartiteGraphPartialColoringInterface &g, vector<string> &ListOfColors, string fileName) {$/;"	f
+buildDotWithColor	../../SRC/Utilities/extra.cpp	/^int buildDotWithColor(ColPack::GraphColoringInterface &g, vector<string> &ListOfColors, string fileName) {$/;"	f
+buildDotWithColor	../../SRC/Utilities/extra.cpp	/^int buildDotWithColor(map< int, map<int,bool> > *graph, vector<int>* vi_VertexColors, vector<string> &ListOfColors, string fileName) {$/;"	f
+buildDotWithoutColor	../../SRC/Utilities/extra.cpp	/^int buildDotWithoutColor(ColPack::BipartiteGraphBicoloringInterface &g, vector<string> &ListOfColors, string fileName) {$/;"	f
+buildDotWithoutColor	../../SRC/Utilities/extra.cpp	/^int buildDotWithoutColor(ColPack::BipartiteGraphPartialColoringInterface &g, vector<string> &ListOfColors, string fileName) {$/;"	f
+buildDotWithoutColor	../../SRC/Utilities/extra.cpp	/^int buildDotWithoutColor(ColPack::GraphColoringInterface &g, vector<string> &ListOfColors, string fileName) {$/;"	f
+buildDotWithoutColor	../../SRC/Utilities/extra.cpp	/^int buildDotWithoutColor(map< int, map<int,bool> > *graph, vector<string> &ListOfColors, string fileName) {$/;"	f
+coutLock	../../SRC/Utilities/CoutLock.cpp	/^	omp_lock_t CoutLock::coutLock;$/;"	m	class:ColPack::CoutLock	file:
+coutLock	../../SRC/Utilities/CoutLock.h	/^		static omp_lock_t coutLock;$/;"	m	class:ColPack::CoutLock
+createArgs	../../SRC/Utilities/command_line_parameter_processor.cpp	/^void createArgs(int argc, const char* argv[], vector<string>& arg) {$/;"	f
+ct_BeginTimer	../../SRC/Utilities/Timer.h	/^		clock_t ct_BeginTimer;$/;"	m	class:ColPack::Timer
+ct_EndTimer	../../SRC/Utilities/Timer.h	/^		clock_t ct_EndTimer;$/;"	m	class:ColPack::Timer
+current_time	../../SRC/Utilities/current_time.cpp	/^void current_time() {$/;"	f
+deleteMatrix	../../SRC/Utilities/extra.h	/^int deleteMatrix(T** xp2_matrix, int rowCount) {$/;"	f
+deleteMatrix	../../SRC/Utilities/extra.h	/^int deleteMatrix(T*** xp3_matrix, int rowCount) {$/;"	f
+diffArrays	../../SRC/Utilities/extra.h	/^int diffArrays(T* array1, T* array2, int rowCount, bool compare_exact = 1, bool print_all = 0) {$/;"	f
+diffVectors	../../SRC/Utilities/extra.h	/^int diffVectors(vector<T> array1, vector<T> array2, bool compare_exact = 1, bool print_all = 0) {$/;"	f
+displayAdjacencyMatrix	../../SRC/Utilities/extra.h	/^void displayAdjacencyMatrix(vector< vector<T> > &xp2_Value, bool structureOnly = false) {$/;"	f
+displayCompressedRowMatrix	../../SRC/Utilities/extra.h	/^void displayCompressedRowMatrix(T** xp2_Value, int rowCount, bool structureOnly = false) {$/;"	f
+displayGraph	../../SRC/Utilities/extra.cpp	/^int displayGraph(map< int, map<int,bool> > *graph, vector<int>* vi_VertexColors,int i_RunInBackground , int filter ) {$/;"	f
+displayGraph	../../SRC/Utilities/extra.h	/^int displayGraph(T &g,int i_RunInBackground = false, int filter = DOT) {$/;"	f
+displayMatrix	../../SRC/Utilities/extra.h	/^void displayMatrix(T** xp2_Value, int rowCount, int columnCount, bool structureOnly = false) {$/;"	f
+displayVector	../../SRC/Utilities/extra.h	/^int displayVector(vector<T> v) {$/;"	f
+displayVector	../../SRC/Utilities/extra.h	/^void displayVector(T* xp2_Value, int size, bool structureOnly = false) {$/;"	f
+dp2_Seed	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		double** dp2_Seed;$/;"	m	class:ColPack::GraphColoring
+fileExtension	../../SRC/Utilities/File.h	/^		string fileExtension; \/\/excluding the '.'$/;"	m	class:ColPack::File
+findArg	../../SRC/Utilities/command_line_parameter_processor.cpp	/^int findArg(string argument, vector<string>& arg) {$/;"	f
+fout	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		ofstream fout; \/\/ !!!$/;"	m	class:ColPack::GraphColoring
+freeMatrix	../../SRC/Utilities/extra.h	/^int freeMatrix(T** xp2_matrix, int rowCount) {$/;"	f
+freeMatrix	../../SRC/Utilities/extra.h	/^int freeMatrix(T*** xp3_matrix, int rowCount) {$/;"	f
+free_2DMatrix	../../SRC/Utilities/MatrixDeallocation.h	/^int free_2DMatrix(T ***dp3_2DMatrix, unsigned int i_numOfRows) {$/;"	f
+free_2DMatrix	../../SRC/Utilities/MatrixDeallocation.h	/^int free_2DMatrix(T **dp2_2DMatrix, unsigned int i_numOfRows) {$/;"	f
+getListOfColors	../../SRC/Utilities/extra.cpp	/^vector<string> getListOfColors(string s_InputFile) {$/;"	f
+getListOfGraphs	../../SRC/Utilities/stat.cpp	/^vector<string> getListOfGraphs(string location_of_graph_list)$/;"	f
+i_ProcessedEdgeCount	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		int i_ProcessedEdgeCount; \/\/ !!!$/;"	m	class:ColPack::GraphColoring
+i_seed_rowCount	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		int i_seed_rowCount;$/;"	m	class:ColPack::GraphColoring
+isHarwellBoeingFormat	../../SRC/Utilities/File.cpp	/^	bool isHarwellBoeingFormat(string s_fileExtension){$/;"	f	namespace:ColPack
+isMatrixMarketFormat	../../SRC/Utilities/File.cpp	/^	bool isMatrixMarketFormat(string s_fileExtension) {$/;"	f	namespace:ColPack
+isMeTiSFormat	../../SRC/Utilities/File.cpp	/^	bool isMeTiSFormat(string s_fileExtension){$/;"	f	namespace:ColPack
+isValidOrdering	../../SRC/Utilities/extra.cpp	/^bool isValidOrdering(vector<int> & ordering, int offset) {$/;"	f
+itoa	../../SRC/Utilities/extra.cpp	/^string itoa(int i) {$/;"	f
+less_degree_than	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	struct less_degree_than {$/;"	s	namespace:ColPack	file:
+lt_pii	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		struct lt_pii$/;"	s	class:ColPack::GraphColoring
+m_T_Timer	../../SRC/GeneralGraphColoring/GraphColoringInterface.h	/^		Timer m_T_Timer;$/;"	m	class:ColPack::GraphColoringInterface
+m_d_AverageColorClassSize	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		double m_d_AverageColorClassSize;$/;"	m	class:ColPack::GraphColoring
+m_d_AverageVertexDegree	../../SRC/GeneralGraphColoring/GraphCore.h	/^		double m_d_AverageVertexDegree;$/;"	m	class:ColPack::GraphCore
+m_d_CheckingTime	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		double m_d_CheckingTime;$/;"	m	class:ColPack::GraphColoring
+m_d_ColoringTime	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		double m_d_ColoringTime;$/;"	m	class:ColPack::GraphColoring
+m_d_OrderingTime	../../SRC/GeneralGraphColoring/GraphOrdering.h	/^		double m_d_OrderingTime;$/;"	m	class:ColPack::GraphOrdering
+m_ds_DisjointSets	../../SRC/GeneralGraphColoring/GraphCore.h	/^		DisjointSets m_ds_DisjointSets; \/\/moved from int GraphColoring::AcyclicColoring()$/;"	m	class:ColPack::GraphCore
+m_i_ColoringUnits	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		int m_i_ColoringUnits;$/;"	m	class:ColPack::GraphColoring
+m_i_LargestColorClass	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		int m_i_LargestColorClass;$/;"	m	class:ColPack::GraphColoring
+m_i_LargestColorClassSize	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		int m_i_LargestColorClassSize;$/;"	m	class:ColPack::GraphColoring
+m_i_MaximumVertexDegree	../../SRC/GeneralGraphColoring/GraphCore.h	/^		int m_i_MaximumVertexDegree;$/;"	m	class:ColPack::GraphCore
+m_i_MinimumVertexDegree	../../SRC/GeneralGraphColoring/GraphCore.h	/^		int m_i_MinimumVertexDegree;$/;"	m	class:ColPack::GraphCore
+m_i_SmallestColorClass	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		int m_i_SmallestColorClass;$/;"	m	class:ColPack::GraphColoring
+m_i_SmallestColorClassSize	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		int m_i_SmallestColorClassSize;$/;"	m	class:ColPack::GraphColoring
+m_i_VertexColorCount	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		int m_i_VertexColorCount;$/;"	m	class:ColPack::GraphColoring
+m_mimi2_VertexEdgeMap	../../SRC/GeneralGraphColoring/GraphCore.h	/^		map< int, map< int, int> > m_mimi2_VertexEdgeMap; \/\/moved from int GraphColoring::AcyclicColoring()$/;"	m	class:ColPack::GraphCore
+m_s_InputFile	../../SRC/GeneralGraphColoring/GraphCore.h	/^		string m_s_InputFile;$/;"	m	class:ColPack::GraphCore
+m_s_VertexColoringVariant	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		string m_s_VertexColoringVariant;$/;"	m	class:ColPack::GraphColoring
+m_s_VertexOrderingVariant	../../SRC/GeneralGraphColoring/GraphOrdering.h	/^		string m_s_VertexOrderingVariant;$/;"	m	class:ColPack::GraphOrdering
+m_vd_Values	../../SRC/GeneralGraphColoring/GraphCore.h	/^		vector<double> m_vd_Values; \/\/!< Edge's weight$/;"	m	class:ColPack::GraphCore
+m_vi_Edges	../../SRC/GeneralGraphColoring/GraphCore.h	/^		vector<int> m_vi_Edges;$/;"	m	class:ColPack::GraphCore
+m_vi_OrderedVertices	../../SRC/GeneralGraphColoring/GraphOrdering.h	/^		vector<int> m_vi_OrderedVertices; \/\/ m_vi_OrderedVertices.size() = m_vi_Vertices.size() - 1$/;"	m	class:ColPack::GraphOrdering
+m_vi_VertexColorFrequency	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		vector<int> m_vi_VertexColorFrequency;$/;"	m	class:ColPack::GraphColoring
+m_vi_VertexColors	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		vector<int> m_vi_VertexColors;$/;"	m	class:ColPack::GraphColoring
+m_vi_Vertices	../../SRC/GeneralGraphColoring/GraphCore.h	/^		vector<int> m_vi_Vertices;$/;"	m	class:ColPack::GraphCore
+main	main.cpp	/^int main(int argc, char* argv[]) {$/;"	f
+mm_clear_typecode	../../SRC/Utilities/mmio.h	70;"	d
+mm_initialize_typecode	../../SRC/Utilities/mmio.h	73;"	d
+mm_is_array	../../SRC/Utilities/mmio.h	36;"	d
+mm_is_complex	../../SRC/Utilities/mmio.h	38;"	d
+mm_is_coordinate	../../SRC/Utilities/mmio.h	34;"	d
+mm_is_dense	../../SRC/Utilities/mmio.h	35;"	d
+mm_is_general	../../SRC/Utilities/mmio.h	44;"	d
+mm_is_hermitian	../../SRC/Utilities/mmio.h	46;"	d
+mm_is_integer	../../SRC/Utilities/mmio.h	41;"	d
+mm_is_matrix	../../SRC/Utilities/mmio.h	31;"	d
+mm_is_pattern	../../SRC/Utilities/mmio.h	40;"	d
+mm_is_real	../../SRC/Utilities/mmio.h	39;"	d
+mm_is_skew	../../SRC/Utilities/mmio.h	45;"	d
+mm_is_sparse	../../SRC/Utilities/mmio.h	33;"	d
+mm_is_symmetric	../../SRC/Utilities/mmio.h	43;"	d
+mm_is_valid	../../SRC/Utilities/mmio.cpp	/^int mm_is_valid(MM_typecode matcode)$/;"	f
+mm_read_banner	../../SRC/Utilities/mmio.cpp	/^int mm_read_banner(FILE *f, MM_typecode *matcode)$/;"	f
+mm_read_mtx_array_size	../../SRC/Utilities/mmio.cpp	/^int mm_read_mtx_array_size(FILE *f, int *M, int *N)$/;"	f
+mm_read_mtx_crd	../../SRC/Utilities/mmio.cpp	/^int mm_read_mtx_crd(char *fname, int *M, int *N, int *nz, int **I, int **J,$/;"	f
+mm_read_mtx_crd_data	../../SRC/Utilities/mmio.cpp	/^int mm_read_mtx_crd_data(FILE *f, int M, int N, int nz, int I[], int J[],$/;"	f
+mm_read_mtx_crd_entry	../../SRC/Utilities/mmio.cpp	/^int mm_read_mtx_crd_entry(FILE *f, int *I, int *J,$/;"	f
+mm_read_mtx_crd_size	../../SRC/Utilities/mmio.cpp	/^int mm_read_mtx_crd_size(FILE *f, int *M, int *N, int *nz )$/;"	f
+mm_read_unsymmetric_sparse	../../SRC/Utilities/mmio.cpp	/^int mm_read_unsymmetric_sparse(const char *fname, int *M_, int *N_, int *nz_,$/;"	f
+mm_set_array	../../SRC/Utilities/mmio.h	55;"	d
+mm_set_complex	../../SRC/Utilities/mmio.h	59;"	d
+mm_set_coordinate	../../SRC/Utilities/mmio.h	54;"	d
+mm_set_dense	../../SRC/Utilities/mmio.h	56;"	d
+mm_set_general	../../SRC/Utilities/mmio.h	66;"	d
+mm_set_hermitian	../../SRC/Utilities/mmio.h	68;"	d
+mm_set_integer	../../SRC/Utilities/mmio.h	62;"	d
+mm_set_matrix	../../SRC/Utilities/mmio.h	53;"	d
+mm_set_pattern	../../SRC/Utilities/mmio.h	61;"	d
+mm_set_real	../../SRC/Utilities/mmio.h	60;"	d
+mm_set_skew	../../SRC/Utilities/mmio.h	67;"	d
+mm_set_sparse	../../SRC/Utilities/mmio.h	57;"	d
+mm_set_symmetric	../../SRC/Utilities/mmio.h	65;"	d
+mm_strdup	../../SRC/Utilities/mmio.cpp	/^char *mm_strdup(const char *s)$/;"	f
+mm_typecode_to_str	../../SRC/Utilities/mmio.cpp	/^char  *mm_typecode_to_str(MM_typecode matcode)$/;"	f
+mm_write_banner	../../SRC/Utilities/mmio.cpp	/^int mm_write_banner(FILE *f, MM_typecode matcode)$/;"	f
+mm_write_mtx_array_size	../../SRC/Utilities/mmio.cpp	/^int mm_write_mtx_array_size(FILE *f, int M, int N)$/;"	f
+mm_write_mtx_crd	../../SRC/Utilities/mmio.cpp	/^int mm_write_mtx_crd(char fname[], int M, int N, int nz, int I[], int J[],$/;"	f
+mm_write_mtx_crd_size	../../SRC/Utilities/mmio.cpp	/^int mm_write_mtx_crd_size(FILE *f, int M, int N, int nz)$/;"	f
+name	../../SRC/Utilities/File.h	/^		string name;$/;"	m	class:ColPack::File
+operator ()	../../SRC/GeneralGraphColoring/GraphColoring.h	/^			bool operator()(const pair<int, int> pii_ColorCombination1, const pair<int, int> pii_ColorCombination2) const$/;"	f	struct:ColPack::GraphColoring::lt_pii
+operator ()	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^		bool operator()(const pair< int, int> *a, const pair< int, int> *b) const {$/;"	f	struct:ColPack::less_degree_than
+operator ==	../../SRC/GeneralGraphColoring/GraphCore.cpp	/^	bool GraphCore::operator==(const GraphCore &other) const {$/;"	f	class:ColPack::GraphCore
+p_vi_Nodes	../../SRC/Utilities/DisjointSets.h	/^		vector<int> p_vi_Nodes;$/;"	m	class:ColPack::DisjointSets
+path	../../SRC/Utilities/File.h	/^		string path; \/\/including the last DIR_SEPARATOR$/;"	m	class:ColPack::File
+printListOfGraphs	../../SRC/Utilities/stat.cpp	/^void printListOfGraphs(vector <string>& listOfGraphs, int selected) {$/;"	f
+printVertexEdgeMap	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	int GraphOrdering::printVertexEdgeMap(vector< vector< pair< int, int> > > &vvpii_VertexEdgeMap) {$/;"	f	class:ColPack::GraphOrdering
+randomOrdering	../../SRC/Utilities/extra.cpp	/^void randomOrdering(vector<int>& ordering) {$/;"	f
+seed_available	../../SRC/GeneralGraphColoring/GraphColoring.h	/^		bool seed_available;$/;"	m	class:ColPack::GraphColoring
+set	../../SRC/Utilities/CoutLock.cpp	/^	int CoutLock::set()$/;"	f	class:ColPack::CoutLock
+tms_BeginTimer	../../SRC/Utilities/Timer.h	/^		struct tms tms_BeginTimer;$/;"	m	class:ColPack::Timer	typeref:struct:ColPack::Timer::tms
+tms_EndTimer	../../SRC/Utilities/Timer.h	/^		struct tms tms_EndTimer;$/;"	m	class:ColPack::Timer	typeref:struct:ColPack::Timer::tms
+toFileBiC	../../SRC/Utilities/stat.cpp	/^void toFileBiC(string baseDir, string stat_output_suffix , vector<string> Orderings, vector<string> Colorings, map<string, bool> stat_flags )$/;"	f
+toFileBiPC	../../SRC/Utilities/stat.cpp	/^void toFileBiPC(string baseDir, string stat_output_suffix, vector<string> Orderings, vector<string> Colorings, map<string, bool> stat_flags )$/;"	f
+toFileC	../../SRC/Utilities/stat.cpp	/^void toFileC(string baseDir, string stat_output_suffix, vector<string> Orderings, vector<string> Colorings, map<string, bool> stat_flags ) {$/;"	f
+toFileC_forColoringBasedOrdering	../../SRC/Utilities/stat.cpp	/^void toFileC_forColoringBasedOrdering(string baseDir, string stat_output_suffix , bool stat_output_append, bool stat_refresh_list )$/;"	f
+toFileStatisticForBipartiteGraph	../../SRC/Utilities/stat.cpp	/^void toFileStatisticForBipartiteGraph(string baseDir, string stat_output_suffix, map<string, bool> stat_flags  )$/;"	f
+toFileStatisticForGraph	../../SRC/Utilities/stat.cpp	/^void toFileStatisticForGraph(string baseDir, string stat_output_suffix , map<string, bool> stat_flags  )$/;"	f
+toUpper	../../SRC/Utilities/extra.cpp	/^string toUpper(string input) {$/;"	f
+unset	../../SRC/Utilities/CoutLock.cpp	/^	int CoutLock::unset()$/;"	f	class:ColPack::CoutLock
+usage	main.cpp	/^void usage(){$/;"	f
+value	../../SRC/GeneralGraphColoring/GraphColoring.h	/^			vector< pair<int, int> > value;$/;"	m	struct:ColPack::GraphColoring::Colors2Edge_Value
+visited	../../SRC/GeneralGraphColoring/GraphColoring.h	/^			bool visited;$/;"	m	struct:ColPack::GraphColoring::Colors2Edge_Value
+~DisjointSets	../../SRC/Utilities/DisjointSets.cpp	/^	DisjointSets::~DisjointSets()$/;"	f	class:ColPack::DisjointSets
+~GraphColoring	../../SRC/GeneralGraphColoring/GraphColoring.cpp	/^	GraphColoring::~GraphColoring()$/;"	f	class:ColPack::GraphColoring
+~GraphColoringInterface	../../SRC/GeneralGraphColoring/GraphColoringInterface.cpp	/^	GraphColoringInterface::~GraphColoringInterface()$/;"	f	class:ColPack::GraphColoringInterface
+~GraphCore	../../SRC/GeneralGraphColoring/GraphCore.h	/^		virtual ~GraphCore() {}$/;"	f	class:ColPack::GraphCore
+~GraphInputOutput	../../SRC/GeneralGraphColoring/GraphInputOutput.cpp	/^	GraphInputOutput::~GraphInputOutput()$/;"	f	class:ColPack::GraphInputOutput
+~GraphOrdering	../../SRC/GeneralGraphColoring/GraphOrdering.cpp	/^	GraphOrdering::~GraphOrdering()$/;"	f	class:ColPack::GraphOrdering
+~StringTokenizer	../../SRC/Utilities/StringTokenizer.cpp	/^	StringTokenizer::~StringTokenizer()$/;"	f	class:ColPack::StringTokenizer
+~Timer	../../SRC/Utilities/Timer.cpp	/^	Timer::~Timer()$/;"	f	class:ColPack::Timer
