@@ -51,6 +51,12 @@ MISColoring::MISColoring(const string& graph_name, const string&order){
 
 }//end of function MISColoring;
 
+class Nodes{
+    public: Nodes(int i):id(i),next(nullptr);
+    public: ~Nodes();
+    int id;
+    Nodes *next;
+};
 
 void MISColoring::JP_Alg(){
     vector<int> &vi     = GraphCore::m_vi_Vertices;
@@ -62,10 +68,17 @@ void MISColoring::JP_Alg(){
     
     int LargestColor=-1;
 
-    list<int> nodes; //TODO ={0,1,2,3,...N} with some order
-    while(!nodes.empty()){
+    vector<int> Q(N,-1),Qtmp(N,-1);
+    long long int QTail=N, QtmpTail=0;
+
+    //do in parallel
+    for(int i=0; i<N; i++){
+        Q[i] = GraphOrder::m_vi_OrderedVertices[i];
+
+    while(QTail>0){
         vector<int> loc_doms;
-        for(auto v : nodes){
+        for(int i=0; i<QTail; i++) {
+            int v = Q[i];
             double wt = wts[v];
             bool loc_domain = true;
             for(int nb=vi[v],nbEnd=vi[v+1]; nb!=nbEnd; nb++) {
@@ -75,23 +88,27 @@ void MISColoring::JP_Alg(){
                     break;
                 }
             }
-            loc_doms.push_back(v);
+            if(loc_domain) loc_doms.push_back(v);
+            else Qtmp[QtmpTail++]=v;
         }
         
-        for
-
-    }
-        if(loc_domain){
+        //do in parallel
+        for(auto v: loc_doms){
             vector<int> cands(Atip_C, -1); 
             for(int nb=vi[i],nbEnd=vi[i+1]; nb!=nbEnd; nb++) {
-                int nbcolor = vtxColors_[nb];
-                if(nbcolor ==-1) continue;
+                int nbcolor; if( (nbcolor=vtxColors_[nb]) == -1) continue;
                 cands[nbcolor] = nb;
             }
             int c=0;
             while( cands[c]!=-1 ) c++;
             vtxColors_[i]=c;
             if(LargestColor < c) LargestColor=c;
+            //reduce LargestColor with operand max
+            cur=vNpt[v];
+        }
+    }
+
+        if(loc_domain){
         }
         }
     }
